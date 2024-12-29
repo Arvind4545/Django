@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form method = 'POST'>
+            {% csrf_token %}
+            Are You Sure, You Want to delete this Record? 
+            <input type = 'submit' value = "YES">
+            <a href = 'http://localhost:8000/PlayersList/'>NO</a>
+        </form>
+    </body>
+</html>

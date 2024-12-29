@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Players List</title>
+    </head>
+    <body>
+        {% for data in dataset   %}
+        <b>{{data.name}}</b><br/>
+        {{data.description}}<br/>
+        <hr/>
+        {% endfor %}
+    </body>
+</html>
